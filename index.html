@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-login">
+        <section class="left-login">
+            <h1>Faça o Login <br>E entre no nosso time</h1>
+            <img class="left-img" src="on-the-office-animate.svg" alt="corporation">
+        </section>
+        <section class="right-login">
+            <form action="card-log" method="post">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usúario" required maxlength="30">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Digite sua senha" minlength="6" maxlength="16" required>
+                </div>
+                <button class="btn-login">Login</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
